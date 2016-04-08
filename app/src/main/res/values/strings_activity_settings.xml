@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="haitatusaki_list_preference">
+        <item>商業</item>
+        <item>宅配</item>
+    </string-array>
+    <string-array name="haitatusakival_list_preference">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="call_list_preference">
+        <item>大</item>
+        <item>中</item>
+        <item>小</item>
+        <item>なし</item>
+    </string-array>
+    <string-array name="callval_list_preference">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="brightness_list_preference">
+        <item>明るい</item>
+        <item>暗い</item>
+    </string-array>
+    <string-array name="brightnessval_list_preference">
+        <item>1</item>
+        <item>0.2</item>
+    </string-array>
+    <string-array name="sleep_list_preference">
+        <item>5分</item>
+        <item>10分</item>
+        <item>しない</item>
+    </string-array>
+    <string-array name="sleepval_list_preference">
+        <item>300000</item>
+        <item>600000</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="autoornot_list_preference">
+        <item>自動</item>
+        <item>手動</item>
+    </string-array>
+    <string-array name="autoornotval_list_preference">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="sendinterval_list_preference">
+        <item>5分毎</item>
+        <item>10分毎</item>
+        <item>15分毎</item>
+    </string-array>
+    <string-array name="sendintervalval_list_preference">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
+</resources>

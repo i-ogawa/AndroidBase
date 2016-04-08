@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Base</string>
+    <string name="action_settings">テスト１</string>
+    <string name="btn_aa">テスト２</string>
+    <string name="btn_settei">設定</string>
+    <string name="btn_Logout">ログアウト</string>
+    <string name="btn_Back">戻る</string>
+    <string name="btn_Next">次へ</string>
+    <string name="txt_Null"></string>
+    <string name="title_activity_top_menu">メニュー</string>
+
+
+    <string-array name="haitatsusaki">
+        <item>a</item>
+        <item>b</item>
+    </string-array>
+    <string-array name="mikanryo">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+</resources>

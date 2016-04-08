@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jp.co.future.androidbase.activity.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <!-- フッター -->
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#3b499f"
+        android:orientation="horizontal" >
+
+        <!-- ログアウトボタン -->
+
+        <Button
+            android:id="@+id/btn_Logout"
+            style="@style/FooterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/btn_Logout" />
+        <!-- ダミー -->
+
+        <TextView
+            android:id="@+id/dummy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <!-- バージョン情報 -->
+
+        <TextView
+            android:id="@+id/txt_version"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="right|bottom"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/footer"
+        android:background="@color/mainbg"
+        android:orientation="vertical" >
+
+
+
+        <!-- aa -->
+
+        <Button
+            android:id="@+id/btn_aa"
+            style="@style/BodyButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/box128"
+            android:drawablePadding="-50dp"
+            android:text="@string/btn_aa" />
+
+
+
+        <!-- 設定 -->
+
+        <Button
+            android:id="@+id/btn_settei"
+            style="@style/BodyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/cog"
+            android:drawablePadding="-50dp"
+            android:text="@string/btn_settei" />
+    </LinearLayout>
+
+</RelativeLayout>

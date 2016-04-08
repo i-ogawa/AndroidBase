@@ -1,0 +1,47 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="DarkGray">#A9A9A9</color>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="SkyBlue">#87CEEB</color>
+    <color name="popupHeader">#34B5E5</color>
+    <color name="DeepSkyBlue">#00BFFF</color>
+    <color name="GhostWhite">#F8F8FF</color>
+    <color name="Oldlace">#FDF5E6</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="divider">#ff808080</color>
+    <color name="LightGoldenRodYellow">#FAFAD2</color>
+    <color name="Gold">#FFD700</color>
+    <color name="Lime">#00FF00</color>
+    <color name="LightGreen">#D4E157</color>
+    <color name="MediumSeaGreen"> #3CB371</color>
+    <color name="action_bar_background">#3b499f</color>
+    <color name="mainbg">#F9F9F9</color>
+    <color name="btn_text">#0E0E52</color>
+    <color name="btn_bg">#EEEEEE</color>
+    <color name="txt_header">#FFFFFF</color>
+    <color name="pop_up_bg">#80D3D3D3</color>
+    <color name="pop_up_bg_black">#95000000</color>
+    <color name="DenKbn_Motobarai">#4B0082</color>
+    <color name="DenKbn_DaibikiMotobarai">#32CD32</color>
+    <color name="DenKbn_Chakubarai">#FF0000</color>
+    <color name="DenKbn_DaibikiChakubarai">#FF8C00</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+
+</resources>
